@@ -1,0 +1,11 @@
+name: dep
+version: 1.0.0
+summary: Step to run dep commands
+tags:
+- golang
+- dep
+- dependency management
+properties:
+- name: command
+  type: string
+  default: "ensure"
